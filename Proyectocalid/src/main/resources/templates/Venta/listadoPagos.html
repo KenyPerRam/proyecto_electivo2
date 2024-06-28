@@ -57,7 +57,8 @@
                         <td th:text="${pago.idVenta.pagoTotal}">total</td>
                         <td th:text="${pago.idTarjeta.nombre}">fecha</td>
                         <td>
-                            <a th:href="@{/buscarDetalleVenta(idVenta=${pago.idVenta.idVenta}, inicio=${0})}">Ver detalle</a>
+                            
+                           <a th:href="@{/buscarDetalleVenta(idVenta=${pago.idVenta.idVenta}, inicio=${0})}"><i class="bi bi-file-earmark-text"></i></a>
                         </td>
                     </tr>
                 </table>
